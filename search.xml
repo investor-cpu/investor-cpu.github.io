@@ -24,4 +24,29 @@
         <tag>DRL</tag>
       </tags>
   </entry>
+  <entry>
+    <title>weekly works</title>
+    <url>/2021/12/01/weekly-works/</url>
+    <content><![CDATA[<center>
+
+<table>
+<thead>
+<tr>
+<th align="center">date</th>
+<th align="center">report#ID</th>
+<th align="center">name</th>
+</tr>
+</thead>
+</table>
+</center>
+
+<h2 id="I-Task-achieved-last-week"><a href="#I-Task-achieved-last-week" class="headerlink" title="I. Task achieved last week"></a>I. Task achieved last week</h2><hr>
+<h2 id="II-Reports"><a href="#II-Reports" class="headerlink" title="II. Reports"></a>II. Reports</h2><hr>
+<h2 id="III-Plan-for-this-week"><a href="#III-Plan-for-this-week" class="headerlink" title="III. Plan for this week"></a>III. Plan for this week</h2><hr>
+]]></content>
+      <tags>
+        <tag>周报</tag>
+        <tag>日报</tag>
+      </tags>
+  </entry>
 </search>
