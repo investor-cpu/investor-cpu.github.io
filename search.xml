@@ -78,7 +78,8 @@
 <h4 id="修改字体权限，终端执行以下命令"><a href="#修改字体权限，终端执行以下命令" class="headerlink" title="修改字体权限，终端执行以下命令"></a>修改字体权限，终端执行以下命令</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> /usr/share/fonts/</span><br><span class="line">chmod 755 wps_symbol_fonts</span><br><span class="line"><span class="built_in">cd</span> /usr/share/fonts/wps_symbol_fonts</span><br><span class="line">chmod 644 *</span><br></pre></td></tr></table></figure>
 <h4 id="生成字体索引-终端执行以下命令"><a href="#生成字体索引-终端执行以下命令" class="headerlink" title="生成字体索引,终端执行以下命令"></a>生成字体索引,终端执行以下命令</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> /usr/share/fonts/wps_symbol_fonts</span><br><span class="line">sudo mkfontscale</span><br><span class="line">sudo mkfontdir</span><br></pre></td></tr></table></figure>
 <h4 id="更新字体缓存-终端执行以下命令"><a href="#更新字体缓存-终端执行以下命令" class="headerlink" title="更新字体缓存,终端执行以下命令"></a>更新字体缓存,终端执行以下命令</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo fc-cache</span><br></pre></td></tr></table></figure>
-<h4 id="重启WPS"><a href="#重启WPS" class="headerlink" title="重启WPS"></a>重启WPS</h4><h3 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h3>]]></content>
+<h4 id="重启WPS"><a href="#重启WPS" class="headerlink" title="重启WPS"></a>重启WPS</h4><h3 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h3><p><a href="https://blog.csdn.net/qq_25135655/article/details/104394488">https://blog.csdn.net/qq_25135655/article/details/104394488</a></p>
+]]></content>
       <categories>
         <category>Ubuntu</category>
       </categories>
