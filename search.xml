@@ -52,4 +52,22 @@
         <tag>日报</tag>
       </tags>
   </entry>
+  <entry>
+    <title>Ubuntu18 基础配置</title>
+    <url>/2021/12/12/Ubuntu18-%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[<h2 id="Ubuntu18-安装虚拟环境"><a href="#Ubuntu18-安装虚拟环境" class="headerlink" title="Ubuntu18 安装虚拟环境"></a>Ubuntu18 安装虚拟环境</h2><p><strong>通过apt安装virtualenv</strong></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo apt install virtualenv</span><br><span class="line">sudo apt install virtualenvwrapper</span><br></pre></td></tr></table></figure>
+<p><strong>在.bashrc 中添加 下面两行，根据自己的目录进行路径修改</strong></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">export</span> WORKON_HOME=<span class="variable">$HOME</span>/.virtualenvs</span><br><span class="line"><span class="built_in">source</span> /usr/share/virtualenvwrapper/virtualenvwrapper.sh</span><br></pre></td></tr></table></figure>
+<p><strong>保存后在终端执行以下命令</strong></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">source</span> .bashrc</span><br></pre></td></tr></table></figure>
+<p><strong>创建指定版本python的虚拟环境</strong></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">mkvirtualenv venv --python=/usr/bin/python3.6</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Ubuntu</category>
+      </categories>
+      <tags>
+        <tag>Ubuntu18</tag>
+      </tags>
+  </entry>
 </search>
